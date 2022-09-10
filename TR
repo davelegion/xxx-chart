@@ -1,0 +1,2443 @@
+function drawChart() {
+
+  //the drawchart function wraps chart and control global chart font size
+
+///// Chart sheet 5 RADAR VERSION ///////////////////////////////////////////////
+
+  const labels = [
+    ['Individual'],
+    ['Player'],
+    ['Team'],
+    ['Organisation']
+  ];
+  //labels.shift();
+  //console.log(labels);
+  //labels.pop();
+
+
+  // data block
+  const data5 = {
+    labels,
+    datasets: [{
+      //label: '# of Votes',
+      data: [12, 19, 3, 5, 2, 3],
+      backgroundColor: [
+        'rgba(20, 62, 53, 1)',
+        'rgba(102, 127, 121, 1)',
+        'rgba(198, 206, 204, 1)',
+        'rgba(201, 201, 201, 1)'
+      ],
+
+      borderColor: [
+        'rgba(255, 99, 132, 1)',
+        'rgba(54, 162, 235, 1)',
+        'rgba(255, 206, 86, 1)',
+        'rgba(75, 192, 192, 1)',
+        'rgba(153, 102, 255, 1)',
+        'rgba(255, 159, 64, 1)'
+      ],
+      borderWidth: 0
+    }]
+  };
+
+  // config block
+  const config5 = {
+    type: 'bar',
+    data: data5,
+    options: {
+      plugins: {
+      // all styling for tooltip
+    	tooltip: {
+        titleFont: {
+          size: 14
+        },
+        bodyFont: {
+          size: 35
+        },
+        footerFont: {
+          size: 20, // there is no footer by default
+        },
+        backgroundColor: '#FFF9F7',
+        displayColors: false,
+        titleColor: '#143E35',
+        bodyColor: '#143E35',
+        footerColor: '#143E35',
+        padding:{
+        left:20,top:20,right:20,bottom:20,
+        }
+      },
+        legend: {
+          display: false,
+          title: {
+            // This more specific font property overrides the global property
+            font: {
+              size: 44,
+              color: '#143E35'
+            }
+          }
+        }
+      },
+
+      //design scales
+      scales: {
+        x: {
+          grid: {
+            circular: false,
+            lineWidth: 0,
+            color: 'rgba(20, 62, 53, .5)',
+          },
+          ticks: {
+            color: '#143E35',
+            font: {
+              size: 22,
+              weight: 'bold',
+              display: true,
+            },
+            pointLabels: {
+              color: '#143E35',
+              font: {
+                size: 22
+              }
+            }
+          }
+        }
+      }
+    }
+  };
+
+  // init render block
+  const myChart5 = new Chart(
+    document.getElementById('myChart5'),
+    config5
+  );
+}
+
+//////////////////////////chart block 6 ///////////////////////////
+
+const labels = [
+    ['Individual'],
+    ['Player'],
+    ['Team'],
+    ['Organisation']
+  ];
+  //labels.shift();
+  //console.log(labels);
+  //labels.pop();
+
+
+  // data block
+  const data6 = {
+    labels,
+    datasets: [{
+      //label: '# of Votes',
+      data: [12, 19, 3, 5, 2, 3],
+      backgroundColor: [
+        'rgba(20, 62, 53, 1)',
+        'rgba(102, 127, 121, 1)',
+        'rgba(198, 206, 204, 1)',
+        'rgba(201, 201, 201, 1)'
+      ],
+
+      borderColor: [
+        'rgba(255, 99, 132, 1)',
+        'rgba(54, 162, 235, 1)',
+        'rgba(255, 206, 86, 1)',
+        'rgba(75, 192, 192, 1)',
+        'rgba(153, 102, 255, 1)',
+        'rgba(255, 159, 64, 1)'
+      ],
+      borderWidth: 0
+    }]
+  };
+
+  // config block
+  const config6 = {
+    type: 'bar',
+    data: data6,
+    options: {
+      plugins: {
+      // all styling for tooltip
+    	tooltip: {
+        titleFont: {
+          size: 14
+        },
+        bodyFont: {
+          size: 35
+        },
+        footerFont: {
+          size: 20, // there is no footer by default
+        },
+        backgroundColor: '#FFF9F7',
+        displayColors: false,
+        titleColor: '#143E35',
+        bodyColor: '#143E35',
+        footerColor: '#143E35',
+        padding:{
+        left:20,top:20,right:20,bottom:20,
+        }
+      },
+        legend: {
+          display: false,
+          title: {
+            // This more specific font property overrides the global property
+            font: {
+              size: 44,
+              color: '#143E35'
+            }
+          }
+        }
+      },
+
+      //design scales
+      scales: {
+        x: {
+          grid: {
+            circular: false,
+            lineWidth: 0,
+            color: 'rgba(20, 62, 53, .5)',
+          },
+          ticks: {
+            color: ' #143E35',
+            font: {
+              size: 22,
+              weight: 'bold',
+              display: true,
+            },
+            pointLabels: {
+              color: '#143E35',
+              font: {
+                size: 22
+              }
+            }
+          }
+        }
+      }
+    }
+  };
+
+  // init render block
+  const myChart6 = new Chart(
+    document.getElementById('myChart6'),
+    config6
+  );
+
+
+//////////////////////////chart block 7 ///////////////////////////
+
+
+const labels7 = [
+    ['Individual'],
+    ['Player'],
+    ['Team'],
+    ['Organisation']
+  ];
+  
+
+
+  // data block
+  const data7 = {
+    labels,
+    datasets: [{
+      //label: '# of Votes',
+      data: [12, 19, 3, 5, 2, 3],
+      backgroundColor: [
+        'rgba(20, 62, 53, 1)',
+        'rgba(102, 127, 121, 1)',
+        'rgba(198, 206, 204, 1)',
+        'rgba(201, 201, 201, 1)'
+      ],
+
+      borderColor: [
+        'rgba(255, 99, 132, 1)',
+        'rgba(54, 162, 235, 1)',
+        'rgba(255, 206, 86, 1)',
+        'rgba(75, 192, 192, 1)',
+        'rgba(153, 102, 255, 1)',
+        'rgba(255, 159, 64, 1)'
+      ],
+      borderWidth: 0
+    }]
+  };
+
+  // config block
+  const config7 = {
+    type: 'bar',
+    data: data7,
+    options: {
+      plugins: {
+      // all styling for tooltip
+    	tooltip: {
+        titleFont: {
+          size: 14
+        },
+        bodyFont: {
+          size: 35
+        },
+        footerFont: {
+          size: 20, // there is no footer by default
+        },
+        backgroundColor: '#FFF9F7',
+        displayColors: false,
+        titleColor: '#143E35',
+        bodyColor: '#143E35',
+        footerColor: '#143E35',
+        padding:{
+        left:20,top:20,right:20,bottom:20,
+        }
+      },
+        legend: {
+          display: false,
+          title: {
+            // This more specific font property overrides the global property
+            font: {
+              size: 44,
+              color: '#143E35'
+            }
+          }
+        }
+      },
+
+      //design scales
+      scales: {
+        x: {
+          grid: {
+            circular: false,
+            lineWidth: 0,
+            color: 'rgba(20, 62, 53, .5)',
+          },
+          ticks: {
+            color: ' #143E35',
+            font: {
+              size: 22,
+              weight: 'bold',
+              display: true,
+            },
+            pointLabels: {
+              color: '#143E35',
+              font: {
+                size: 22
+              }
+            }
+          }
+        }
+      }
+    }
+  };
+
+  // init render block
+  const myChart7 = new Chart(
+    document.getElementById('myChart7'),
+    config7
+  );
+
+
+
+//////////////////////////chart block 8 ///////////////////////////
+
+const labels8 = [
+    ['Individual'],
+    ['Player'],
+    ['Team'],
+    ['Organisation']
+  ];
+  //labels.shift();
+  //console.log(labels);
+  //labels.pop();
+
+
+  // data block
+  const data8 = {
+    labels,
+    datasets: [{
+      //label: '# of Votes',
+      data: [12, 19, 3, 5, 2, 3],
+      backgroundColor: [
+        'rgba(20, 62, 53, 1)',
+        'rgba(102, 127, 121, 1)',
+        'rgba(198, 206, 204, 1)',
+        'rgba(201, 201, 201, 1)'
+      ],
+
+      borderColor: [
+        'rgba(255, 99, 132, 1)',
+        'rgba(54, 162, 235, 1)',
+        'rgba(255, 206, 86, 1)',
+        'rgba(75, 192, 192, 1)',
+        'rgba(153, 102, 255, 1)',
+        'rgba(255, 159, 64, 1)'
+      ],
+      borderWidth: 0
+    }]
+  };
+
+  // config block
+  const config8 = {
+    type: 'bar',
+    data: data8,
+    options: {
+      plugins: {
+      // all styling for tooltip
+    	tooltip: {
+        titleFont: {
+          size: 14
+        },
+        bodyFont: {
+          size: 35
+        },
+        footerFont: {
+          size: 20, // there is no footer by default
+        },
+        backgroundColor: '#FFF9F7',
+        displayColors: false,
+        titleColor: '#143E35',
+        bodyColor: '#143E35',
+        footerColor: '#143E35',
+        padding:{
+        left:20,top:20,right:20,bottom:20,
+        }
+      },
+        legend: {
+          display: false,
+          title: {
+            // This more specific font property overrides the global property
+            font: {
+              size: 44,
+              color: '#143E35'
+            }
+          }
+        }
+      },
+
+      //design scales
+      scales: {
+        x: {
+          grid: {
+            circular: false,
+            lineWidth: 0,
+            color: 'rgba(20, 62, 53, .5)',
+          },
+          ticks: {
+            color: ' #143E35',
+            font: {
+              size: 22,
+              weight: 'bold',
+              display: true,
+            },
+            pointLabels: {
+              color: '#143E35',
+              font: {
+                size: 22
+              }
+            }
+          }
+        }
+      }
+    }
+  };
+
+  // init render block
+  const myChart8 = new Chart(
+    document.getElementById('myChart8'),
+    config8
+  );
+
+
+//////////////////////////chart block 9 ///////////////////////////
+
+
+const labels9 = [
+    ['Individual'],
+    ['Player'],
+    ['Team'],
+    ['Organisation']
+  ];
+  //labels.shift();
+  //console.log(labels);
+  //labels.pop();
+
+
+  // data block
+  const data9 = {
+    labels,
+    datasets: [{
+      //label: '# of Votes',
+      data: [12, 19, 3, 5, 2, 3],
+      backgroundColor: [
+        'rgba(20, 62, 53, 1)',
+        'rgba(102, 127, 121, 1)',
+        'rgba(198, 206, 204, 1)',
+        'rgba(201, 201, 201, 1)'
+      ],
+
+      borderColor: [
+        'rgba(255, 99, 132, 1)',
+        'rgba(54, 162, 235, 1)',
+        'rgba(255, 206, 86, 1)',
+        'rgba(75, 192, 192, 1)',
+        'rgba(153, 102, 255, 1)',
+        'rgba(255, 159, 64, 1)'
+      ],
+      borderWidth: 0
+    }]
+  };
+
+  // config block
+  const config9 = {
+    type: 'bar',
+    data: data9,
+    options: {
+      plugins: {
+      // all styling for tooltip
+    	tooltip: {
+        titleFont: {
+          size: 14
+        },
+        bodyFont: {
+          size: 35
+        },
+        footerFont: {
+          size: 20, // there is no footer by default
+        },
+        backgroundColor: '#FFF9F7',
+        displayColors: false,
+        titleColor: '#143E35',
+        bodyColor: '#143E35',
+        footerColor: '#143E35',
+        padding:{
+        left:20,top:20,right:20,bottom:20,
+        }
+      },
+        legend: {
+          display: false,
+          title: {
+            // This more specific font property overrides the global property
+            font: {
+              size: 44,
+              color: '#143E35'
+            }
+          }
+        }
+      },
+
+      //design scales
+      scales: {
+        x: {
+          grid: {
+            circular: false,
+            lineWidth: 0,
+            color: 'rgba(20, 62, 53, .5)',
+          },
+          ticks: {
+            color: ' #143E35',
+            font: {
+              size: 22,
+              weight: 'bold',
+              display: true,
+            },
+            pointLabels: {
+              color: '#143E35',
+              font: {
+                size: 22
+              }
+            }
+          }
+        }
+      }
+    }
+  };
+
+  // init render block
+  const myChart9 = new Chart(
+    document.getElementById('myChart9'),
+    config9
+  );
+
+
+//////////////////////////chart block 10 ///////////////////////////
+
+
+const labels10 = [
+    ['G&A'],
+    ['R&D'],
+    ['Sales & Marketing'],
+    ['Operations']
+  ];
+  //labels.shift();
+  //console.log(labels);
+  //labels.pop();
+
+
+  // data block
+  const data10 = {
+    labels,
+    datasets: [{
+      //label: '# of Votes',
+      data: [12, 12, 3],
+      backgroundColor: [
+        'rgba(20, 62, 53, 1)',
+        'rgba(102, 127, 121, 1)',
+        'rgba(198, 206, 204, 1)',
+        'rgba(201, 201, 201, 1)'
+      ],
+
+      borderColor: [
+        'rgba(255, 99, 132, 1)',
+        'rgba(54, 162, 235, 1)',
+        'rgba(255, 206, 86, 1)',
+        'rgba(75, 192, 192, 1)',
+        'rgba(153, 102, 255, 1)',
+        'rgba(255, 159, 64, 1)'
+      ],
+      borderWidth: 0
+    }]
+  };
+
+  // config block
+  const config10 = {
+    type: 'bar',
+    data: data10,
+    options: {
+      plugins: {
+      // all styling for tooltip
+    	tooltip: {
+        titleFont: {
+          size: 14
+        },
+        bodyFont: {
+          size: 35
+        },
+        footerFont: {
+          size: 20, // there is no footer by default
+        },
+        backgroundColor: '#FFF9F7',
+        displayColors: false,
+        titleColor: '#143E35',
+        bodyColor: '#143E35',
+        footerColor: '#143E35',
+        padding:{
+        left:20,top:20,right:20,bottom:20,
+        }
+      },
+        legend: {
+          display: false,
+          title: {
+            // This more specific font property overrides the global property
+            font: {
+              size: 44,
+              color: '#143E35'
+            }
+          }
+        }
+      },
+
+      //design scales
+      scales: {
+        x: {
+          grid: {
+            circular: false,
+            lineWidth: 0,
+            color: 'rgba(20, 62, 53, .5)',
+          },
+          ticks: {
+            color: ' #143E35',
+            font: {
+              size: 22,
+              weight: 'bold',
+              display: true,
+            },
+            pointLabels: {
+              color: '#143E35',
+              font: {
+                size: 22
+              }
+            }
+          }
+        }
+      }
+    }
+  };
+
+  // init render block
+  const myChart10 = new Chart(
+    document.getElementById('myChart10'),
+    config10
+  );
+
+
+
+
+///// Chart sheet 6 RADAR VERSION ///////////////////////////////////////////////
+
+// data block
+const data11 = {
+ labels: [
+['Contribute to a meaningful', 'of purpose through the', 'word that we do together'],
+['Act in accordance to', 'the team’s shared values'],
+['Achieve future success in', 'the areas that matter', 'the most'],
+['Proactively identify solutions', 'to problems we encounter'],
+['Effectively discuss setbacks', 'help to learn form', 'our experience']],
+  datasets: [{
+    //label: '# of Votes',
+    data: [12, 19, 32, 37, 23 ],
+    backgroundColor: 'rgba(20, 62, 53, .7)',
+    //radar point styling
+    borderColor: 'rgb(2s0, 203, 203, 1)',
+    pointBackgroundColor: 'rgba(20, 62, 53, 1)',
+    pointBorderColor: 'rgba(20, 62, 53, .5)',
+    pointHoverBackgroundColor: 'rgba(20, 62, 53, 1)',
+    pointHoverBorderColor: 'rgb(20, 99, 132)',
+  }]
+};
+
+// config block
+const config11 = {
+  type: 'radar',
+  data: data11,
+  options: {
+    plugins: {
+    // all styling for tooltip
+    	tooltip: {
+        titleFont: {
+          size: 14
+        },
+        bodyFont: {
+          size: 35
+        },
+        footerFont: {
+          size: 20, // there is no footer by default
+        },
+        backgroundColor: '#FFF9F7',
+        displayColors: false,
+        titleColor: '#143E35',
+        bodyColor: '#143E35',
+        footerColor: '#143E35',
+        padding:{
+        left:20,top:20,right:20,bottom:20,
+        }
+      },
+      legend: {
+        display: false,
+        title: {
+          // This more specific font property overrides the global property
+          font: {
+            size: 22,
+            color: '#143E35'
+          }
+        }
+      }
+    },
+
+    elements: {
+      line: {
+        borderWidth: 0
+      },
+      point: {
+        pointRadius: 12
+      }
+    },
+
+    //design scales
+     scales: {
+      r: {
+        angleLines: {
+          lineWidth: 3,
+          color: 'rgba(20, 62, 53, .5)',
+        },
+        grid: {
+          circular: false,
+          lineWidth: 3,
+          color: 'rgba(20, 62, 53, .5)',
+        },
+        ticks: {
+          color: ' #143E35',
+          font: {
+            size: 18,
+            weight: 'bold',
+            display: true,
+          }
+        },
+        pointLabels: {
+          color: '#143E35',
+          font: {
+            size: 16
+          }
+        }
+      }
+    }
+  }
+};
+
+// init render block
+const myChart11 = new Chart(
+  document.getElementById('myChart11'),
+  config11
+);
+
+
+
+
+///// Chart sheet 6 RADAR VERSION ///////////////////////////////////////////////
+
+// data block
+const data12 = {
+ labels: [
+['Contribute to a meaningful', 'of purpose through the', 'word that we do together'],
+['Act in accordance to', 'the team’s shared values'],
+['Achieve future success in', 'the areas that matter', 'the most'],
+['Proactively identify solutions', 'to problems we encounter'],
+['Effectively discuss setbacks', 'help to learn form', 'our experience']],
+  datasets: [{
+    //label: '# of Votes',
+    data: [12, 19, 32, 37, 23 ],
+    backgroundColor: 'rgba(20, 62, 53, .7)',
+    //radar point styling
+    borderColor: 'rgb(2s0, 203, 203, 1)',
+    pointBackgroundColor: 'rgba(20, 62, 53, 1)',
+    pointBorderColor: 'rgba(20, 62, 53, .5)',
+    pointHoverBackgroundColor: 'rgba(20, 62, 53, 1)',
+    pointHoverBorderColor: 'rgb(20, 99, 132)',
+  }]
+};
+
+// config block
+const config12 = {
+  type: 'radar',
+  data: data12,
+  options: {
+    plugins: {
+    // all styling for tooltip
+    	tooltip: {
+        titleFont: {
+          size: 14
+        },
+        bodyFont: {
+          size: 35
+        },
+        footerFont: {
+          size: 20, // there is no footer by default
+        },
+        backgroundColor: '#FFF9F7',
+        displayColors: false,
+        titleColor: '#143E35',
+        bodyColor: '#143E35',
+        footerColor: '#143E35',
+        padding:{
+        left:20,top:20,right:20,bottom:20,
+        }
+      },
+      legend: {
+        display: false,
+        title: {
+          // This more specific font property overrides the global property
+          font: {
+            size: 22,
+            color: '#143E35'
+          }
+        }
+      }
+    },
+
+    elements: {
+      line: {
+        borderWidth: 0
+      },
+      point: {
+        pointRadius: 12
+      }
+    },
+
+    //design scales
+     scales: {
+      r: {
+        angleLines: {
+          lineWidth: 3,
+          color: 'rgba(20, 62, 53, .5)',
+        },
+        grid: {
+          circular: false,
+          lineWidth: 3,
+          color: 'rgba(20, 62, 53, .5)',
+        },
+        ticks: {
+          color: ' #143E35',
+          font: {
+            size: 18,
+            weight: 'bold',
+            display: true,
+          }
+        },
+        pointLabels: {
+          color: '#143E35',
+          font: {
+            size: 16
+          }
+        }
+      }
+    }
+  }
+};
+
+// init render block
+const myChart12 = new Chart(
+  document.getElementById('myChart12'),
+  config12
+);
+
+
+///// Chart sheet 6 RADAR VERSION ///////////////////////////////////////////////
+
+// data block
+const data13 = {
+ labels: [
+['Contribute to a meaningful', 'of purpose through the', 'word that we do together'],
+['Act in accordance to', 'the team’s shared values'],
+['Achieve future success in', 'the areas that matter', 'the most'],
+['Proactively identify solutions', 'to problems we encounter'],
+['Effectively discuss setbacks', 'help to learn form', 'our experience']],
+  datasets: [{
+    //label: '# of Votes',
+    data: [12, 19, 32, 37, 23 ],
+    backgroundColor: 'rgba(20, 62, 53, .7)',
+    //radar point styling
+    borderColor: 'rgb(2s0, 203, 203, 1)',
+    pointBackgroundColor: 'rgba(20, 62, 53, 1)',
+    pointBorderColor: 'rgba(20, 62, 53, .5)',
+    pointHoverBackgroundColor: 'rgba(20, 62, 53, 1)',
+    pointHoverBorderColor: 'rgb(20, 99, 132)',
+  }]
+};
+
+// config block
+const config13 = {
+  type: 'radar',
+  data: data13,
+  options: {
+    plugins: {
+    // all styling for tooltip
+    	// all styling for tooltip
+    	tooltip: {
+        titleFont: {
+          size: 14
+        },
+        bodyFont: {
+          size: 35
+        },
+        footerFont: {
+          size: 20, // there is no footer by default
+        },
+        backgroundColor: '#FFF9F7',
+        displayColors: false,
+        titleColor: '#143E35',
+        bodyColor: '#143E35',
+        footerColor: '#143E35',
+        padding:{
+        left:20,top:20,right:20,bottom:20,
+        }
+      },
+      legend: {
+        display: false,
+        title: {
+          // This more specific font property overrides the global property
+          font: {
+            size: 22,
+            color: '#143E35'
+          }
+        }
+      }
+    },
+
+    elements: {
+      line: {
+        borderWidth: 0
+      },
+      point: {
+        pointRadius: 12
+      }
+    },
+
+    //design scales
+     scales: {
+      r: {
+        angleLines: {
+          lineWidth: 3,
+          color: 'rgba(20, 62, 53, .5)',
+        },
+        grid: {
+          circular: false,
+          lineWidth: 3,
+          color: 'rgba(20, 62, 53, .5)',
+        },
+        ticks: {
+          color: ' #143E35',
+          font: {
+            size: 18,
+            weight: 'bold',
+            display: true,
+          }
+        },
+        pointLabels: {
+          color: '#143E35',
+          font: {
+            size: 16
+          }
+        }
+      }
+    }
+  }
+};
+
+// init render block
+const myChart13 = new Chart(
+  document.getElementById('myChart13'),
+  config13
+);
+
+
+///// Chart sheet 6 RADAR VERSION ///////////////////////////////////////////////
+
+// data block
+const data14 = {
+ labels: [
+['Contribute to a meaningful', 'of purpose through the', 'word that we do together'],
+['Act in accordance to', 'the team’s shared values'],
+['Achieve future success in', 'the areas that matter', 'the most'],
+['Proactively identify solutions', 'to problems we encounter'],
+['Effectively discuss setbacks', 'help to learn form', 'our experience']],
+  datasets: [{
+    //label: '# of Votes',
+    data: [12, 19, 32, 37, 23 ],
+    backgroundColor: 'rgba(20, 62, 53, .7)',
+    //radar point styling
+    borderColor: 'rgb(2s0, 203, 203, 1)',
+    pointBackgroundColor: 'rgba(20, 62, 53, 1)',
+    pointBorderColor: 'rgba(20, 62, 53, .5)',
+    pointHoverBackgroundColor: 'rgba(20, 62, 53, 1)',
+    pointHoverBorderColor: 'rgb(20, 99, 132)',
+  }]
+};
+
+// config block
+const config14 = {
+  type: 'radar',
+  data: data14,
+  options: {
+    plugins: {
+    // all styling for tooltip
+    	// all styling for tooltip
+    	tooltip: {
+        titleFont: {
+          size: 14
+        },
+        bodyFont: {
+          size: 35
+        },
+        footerFont: {
+          size: 20, // there is no footer by default
+        },
+        backgroundColor: '#FFF9F7',
+        displayColors: false,
+        titleColor: '#143E35',
+        bodyColor: '#143E35',
+        footerColor: '#143E35',
+        padding:{
+        left:20,top:20,right:20,bottom:20,
+        }
+      },
+      legend: {
+        display: false,
+        title: {
+          // This more specific font property overrides the global property
+          font: {
+            size: 22,
+            color: '#143E35'
+          }
+        }
+      }
+    },
+
+    elements: {
+      line: {
+        borderWidth: 0
+      },
+      point: {
+        pointRadius: 12
+      }
+    },
+
+    //design scales
+     scales: {
+      r: {
+        angleLines: {
+          lineWidth: 3,
+          color: 'rgba(20, 62, 53, .5)',
+        },
+        grid: {
+          circular: false,
+          lineWidth: 3,
+          color: 'rgba(20, 62, 53, .5)',
+        },
+        ticks: {
+          color: ' #143E35',
+          font: {
+            size: 18,
+            weight: 'bold',
+            display: true,
+          }
+        },
+        pointLabels: {
+          color: '#143E35',
+          font: {
+            size: 16
+          }
+        }
+      }
+    }
+  }
+};
+
+// init render block
+const myChart14 = new Chart(
+  document.getElementById('myChart14'),
+  config14
+);
+
+
+///// Chart sheet 6 RADAR VERSION ///////////////////////////////////////////////
+
+// data block
+const data15 = {
+ labels: [
+['Contribute to a meaningful', 'of purpose through the', 'word that we do together'],
+['Act in accordance to', 'the team’s shared values'],
+['Achieve future success in', 'the areas that matter', 'the most'],
+['Proactively identify solutions', 'to problems we encounter'],
+['Effectively discuss setbacks', 'help to learn form', 'our experience']],
+  datasets: [{
+    //label: '# of Votes',
+    data: [12, 19, 32, 37, 23 ],
+    backgroundColor: 'rgba(20, 62, 53, .7)',
+    //radar point styling
+    borderColor: 'rgb(2s0, 203, 203, 1)',
+    pointBackgroundColor: 'rgba(20, 62, 53, 1)',
+    pointBorderColor: 'rgba(20, 62, 53, .5)',
+    pointHoverBackgroundColor: 'rgba(20, 62, 53, 1)',
+    pointHoverBorderColor: 'rgb(20, 99, 132)',
+  }]
+};
+
+// config block
+const config15 = {
+  type: 'radar',
+  data: data15,
+  options: {
+    plugins: {
+    // all styling for tooltip
+    	tooltip: {
+        titleFont: {
+          size: 14
+        },
+        bodyFont: {
+          size: 35
+        },
+        footerFont: {
+          size: 20, // there is no footer by default
+        },
+        backgroundColor: '#FFF9F7',
+        displayColors: false,
+        titleColor: '#143E35',
+        bodyColor: '#143E35',
+        footerColor: '#143E35',
+        padding:{
+        left:20,top:20,right:20,bottom:20,
+        }
+      },
+      legend: {
+        display: false,
+        title: {
+          // This more specific font property overrides the global property
+          font: {
+            size: 22,
+            color: '#143E35'
+          }
+        }
+      }
+    },
+
+    elements: {
+      line: {
+        borderWidth: 0
+      },
+      point: {
+        pointRadius: 12
+      }
+    },
+
+    //design scales
+     scales: {
+      r: {
+        angleLines: {
+          lineWidth: 3,
+          color: 'rgba(20, 62, 53, .5)',
+        },
+        grid: {
+          circular: false,
+          lineWidth: 3,
+          color: 'rgba(20, 62, 53, .5)',
+        },
+        ticks: {
+          color: ' #143E35',
+          font: {
+            size: 18,
+            weight: 'bold',
+            display: true,
+          }
+        },
+        pointLabels: {
+          color: '#143E35',
+          font: {
+            size: 16
+          }
+        }
+      }
+    }
+  }
+};
+
+// init render block
+const myChart15 = new Chart(
+  document.getElementById('myChart15'),
+  config15
+);
+
+
+///// Chart sheet 6 RADAR VERSION ///////////////////////////////////////////////
+
+// data block
+const data16 = {
+ labels: [
+['Contribute to a meaningful', 'of purpose through the', 'word that we do together'],
+['Act in accordance to', 'the team’s shared values'],
+['Achieve future success in', 'the areas that matter', 'the most'],
+['Proactively identify solutions', 'to problems we encounter'],
+['Effectively discuss setbacks', 'help to learn form', 'our experience']],
+  datasets: [{
+    //label: '# of Votes',
+    data: [12, 19, 32, 37, 23 ],
+    backgroundColor: 'rgba(20, 62, 53, .7)',
+    //radar point styling
+    borderColor: 'rgb(2s0, 203, 203, 1)',
+    pointBackgroundColor: 'rgba(20, 62, 53, 1)',
+    pointBorderColor: 'rgba(20, 62, 53, .5)',
+    pointHoverBackgroundColor: 'rgba(20, 62, 53, 1)',
+    pointHoverBorderColor: 'rgb(20, 99, 132)',
+  }]
+};
+
+// config block
+const config16 = {
+  type: 'radar',
+  data: data16,
+  options: {
+    plugins: {
+    // all styling for tooltip
+    	tooltip: {
+        titleFont: {
+          size: 14
+        },
+        bodyFont: {
+          size: 35
+        },
+        footerFont: {
+          size: 20, // there is no footer by default
+        },
+        backgroundColor: '#FFF9F7',
+        displayColors: false,
+        titleColor: '#143E35',
+        bodyColor: '#143E35',
+        footerColor: '#143E35',
+        padding:{
+        left:20,top:20,right:20,bottom:20,
+        }
+      },
+      legend: {
+        display: false,
+        title: {
+          // This more specific font property overrides the global property
+          font: {
+            size: 22,
+            color: '#143E35'
+          }
+        }
+      }
+    },
+
+    elements: {
+      line: {
+        borderWidth: 0
+      },
+      point: {
+        pointRadius: 12
+      }
+    },
+
+    //design scales
+     scales: {
+      r: {
+        angleLines: {
+          lineWidth: 3,
+          color: 'rgba(20, 62, 53, .5)',
+        },
+        grid: {
+          circular: false,
+          lineWidth: 3,
+          color: 'rgba(20, 62, 53, .5)',
+        },
+        ticks: {
+          color: ' #143E35',
+          font: {
+            size: 18,
+            weight: 'bold',
+            display: true,
+          }
+        },
+        pointLabels: {
+          color: '#143E35',
+          font: {
+            size: 16
+          }
+        }
+      }
+    }
+  }
+};
+
+// init render block
+const myChart16 = new Chart(
+  document.getElementById('myChart16'),
+  config16
+);
+
+
+
+///// Chart sheet 6 RADAR VERSION ///////////////////////////////////////////////
+
+// data block
+const data17 = {
+ labels: [
+['Contribute to a meaningful', 'of purpose through the', 'word that we do together'],
+['Act in accordance to', 'the team’s shared values'],
+['Achieve future success in', 'the areas that matter', 'the most'],
+['Proactively identify solutions', 'to problems we encounter'],
+['Effectively discuss setbacks', 'help to learn form', 'our experience']],
+  datasets: [{
+    //label: '# of Votes',
+    data: [12, 19, 32, 37, 23 ],
+    backgroundColor: 'rgba(20, 62, 53, .7)',
+    //radar point styling
+    borderColor: 'rgb(2s0, 203, 203, 1)',
+    pointBackgroundColor: 'rgba(20, 62, 53, 1)',
+    pointBorderColor: 'rgba(20, 62, 53, .5)',
+    pointHoverBackgroundColor: 'rgba(20, 62, 53, 1)',
+    pointHoverBorderColor: 'rgb(20, 99, 132)',
+  }]
+};
+
+// config block
+const config17 = {
+  type: 'radar',
+  data: data17,
+  options: {
+    plugins: {
+    // all styling for tooltip
+    	tooltip: {
+        titleFont: {
+          size: 14
+        },
+        bodyFont: {
+          size: 35
+        },
+        footerFont: {
+          size: 20, // there is no footer by default
+        },
+        backgroundColor: '#FFF9F7',
+        displayColors: false,
+        titleColor: '#143E35',
+        bodyColor: '#143E35',
+        footerColor: '#143E35',
+        padding:{
+        left:20,top:20,right:20,bottom:20,
+        }
+      },
+      legend: {
+        display: false,
+        title: {
+          // This more specific font property overrides the global property
+          font: {
+            size: 22,
+            color: '#143E35'
+          }
+        }
+      }
+    },
+
+    elements: {
+      line: {
+        borderWidth: 0
+      },
+      point: {
+        pointRadius: 12
+      }
+    },
+
+    //design scales
+     scales: {
+      r: {
+        angleLines: {
+          lineWidth: 3,
+          color: 'rgba(20, 62, 53, .5)',
+        },
+        grid: {
+          circular: false,
+          lineWidth: 3,
+          color: 'rgba(20, 62, 53, .5)',
+        },
+        ticks: {
+          color: ' #143E35',
+          font: {
+            size: 18,
+            weight: 'bold',
+            display: true,
+          }
+        },
+        pointLabels: {
+          color: '#143E35',
+          font: {
+            size: 16
+          }
+        }
+      }
+    }
+  }
+};
+
+// init render block
+const myChart17 = new Chart(
+  document.getElementById('myChart17'),
+  config17
+);
+
+
+///// Chart sheet 6 RADAR VERSION ///////////////////////////////////////////////
+
+// data block
+const data18 = {
+ labels: [
+['Contribute to a meaningful', 'of purpose through the', 'word that we do together'],
+['Act in accordance to', 'the team’s shared values'],
+['Achieve future success in', 'the areas that matter', 'the most'],
+['Proactively identify solutions', 'to problems we encounter'],
+['Effectively discuss setbacks', 'help to learn form', 'our experience']],
+  datasets: [{
+    //label: '# of Votes',
+    data: [12, 19, 32, 37, 23 ],
+    backgroundColor: 'rgba(20, 62, 53, .7)',
+    //radar point styling
+    borderColor: 'rgb(2s0, 203, 203, 1)',
+    pointBackgroundColor: 'rgba(20, 62, 53, 1)',
+    pointBorderColor: 'rgba(20, 62, 53, .5)',
+    pointHoverBackgroundColor: 'rgba(20, 62, 53, 1)',
+    pointHoverBorderColor: 'rgb(20, 99, 132)',
+  }]
+};
+
+// config block
+const config18 = {
+  type: 'radar',
+  data: data12,
+  options: {
+    plugins: {
+    // all styling for tooltip
+    	tooltip: {
+        titleFont: {
+          size: 14
+        },
+        bodyFont: {
+          size: 35
+        },
+        footerFont: {
+          size: 20, // there is no footer by default
+        },
+        backgroundColor: '#FFF9F7',
+        displayColors: false,
+        titleColor: '#143E35',
+        bodyColor: '#143E35',
+        footerColor: '#143E35',
+        padding:{
+        left:20,top:20,right:20,bottom:20,
+        }
+      },
+      legend: {
+        display: false,
+        title: {
+          // This more specific font property overrides the global property
+          font: {
+            size: 22,
+            color: '#143E35'
+          }
+        }
+      }
+    },
+
+    elements: {
+      line: {
+        borderWidth: 0
+      },
+      point: {
+        pointRadius: 12
+      }
+    },
+
+    //design scales
+     scales: {
+      r: {
+        angleLines: {
+          lineWidth: 3,
+          color: 'rgba(20, 62, 53, .5)',
+        },
+        grid: {
+          circular: false,
+          lineWidth: 3,
+          color: 'rgba(20, 62, 53, .5)',
+        },
+        ticks: {
+          color: ' #143E35',
+          font: {
+            size: 18,
+            weight: 'bold',
+            display: true,
+          }
+        },
+        pointLabels: {
+          color: '#143E35',
+          font: {
+            size: 16
+          }
+        }
+      }
+    }
+  }
+};
+
+// init render block
+const myChart18 = new Chart(
+  document.getElementById('myChart18'),
+  config18
+);
+
+
+///// Chart sheet 6 RADAR VERSION ///////////////////////////////////////////////
+
+// data block
+const data19 = {
+ labels: [
+['Contribute to a meaningful', 'of purpose through the', 'word that we do together'],
+['Act in accordance to', 'the team’s shared values'],
+['Achieve future success in', 'the areas that matter', 'the most'],
+['Proactively identify solutions', 'to problems we encounter'],
+['Effectively discuss setbacks', 'help to learn form', 'our experience']],
+  datasets: [{
+    //label: '# of Votes',
+    data: [12, 19, 32, 37, 23 ],
+    backgroundColor: 'rgba(20, 62, 53, .7)',
+    //radar point styling
+    borderColor: 'rgb(2s0, 203, 203, 1)',
+    pointBackgroundColor: 'rgba(20, 62, 53, 1)',
+    pointBorderColor: 'rgba(20, 62, 53, .5)',
+    pointHoverBackgroundColor: 'rgba(20, 62, 53, 1)',
+    pointHoverBorderColor: 'rgb(20, 99, 132)',
+  }]
+};
+
+// config block
+const config19 = {
+  type: 'radar',
+  data: data19,
+  options: {
+    plugins: {
+    // all styling for tooltip
+    	tooltip: {
+        titleFont: {
+          size: 14
+        },
+        bodyFont: {
+          size: 35
+        },
+        footerFont: {
+          size: 20, // there is no footer by default
+        },
+        backgroundColor: '#FFF9F7',
+        displayColors: false,
+        titleColor: '#143E35',
+        bodyColor: '#143E35',
+        footerColor: '#143E35',
+        padding:{
+        left:20,top:20,right:20,bottom:20,
+        }
+      },
+      legend: {
+        display: false,
+        title: {
+          // This more specific font property overrides the global property
+          font: {
+            size: 22,
+            color: '#143E35'
+          }
+        }
+      }
+    },
+
+    elements: {
+      line: {
+        borderWidth: 0
+      },
+      point: {
+        pointRadius: 12
+      }
+    },
+
+    //design scales
+     scales: {
+      r: {
+        angleLines: {
+          lineWidth: 3,
+          color: 'rgba(20, 62, 53, .5)',
+        },
+        grid: {
+          circular: false,
+          lineWidth: 3,
+          color: 'rgba(20, 62, 53, .5)',
+        },
+        ticks: {
+          color: ' #143E35',
+          font: {
+            size: 18,
+            weight: 'bold',
+            display: true,
+          }
+        },
+        pointLabels: {
+          color: '#143E35',
+          font: {
+            size: 16
+          }
+        }
+      }
+    }
+  }
+};
+
+// init render block
+const myChart19 = new Chart(
+  document.getElementById('myChart19'),
+  config19
+);
+
+
+///// Chart sheet 6 RADAR VERSION ///////////////////////////////////////////////
+
+// data block
+const data20 = {
+ labels: [
+['Contribute to a meaningful', 'of purpose through the', 'word that we do together'],
+['Act in accordance to', 'the team’s shared values'],
+['Achieve future success in', 'the areas that matter', 'the most'],
+['Proactively identify solutions', 'to problems we encounter'],
+['Effectively discuss setbacks', 'help to learn form', 'our experience']],
+  datasets: [{
+    //label: '# of Votes',
+    data: [12, 19, 32, 37, 23 ],
+    backgroundColor: 'rgba(20, 62, 53, .7)',
+    //radar point styling
+    borderColor: 'rgb(2s0, 203, 203, 1)',
+    pointBackgroundColor: 'rgba(20, 62, 53, 1)',
+    pointBorderColor: 'rgba(20, 62, 53, .5)',
+    pointHoverBackgroundColor: 'rgba(20, 62, 53, 1)',
+    pointHoverBorderColor: 'rgb(20, 99, 132)',
+  }]
+};
+
+// config block
+const config20 = {
+  type: 'radar',
+  data: data20,
+  options: {
+    plugins: {
+    // all styling for tooltip
+    	tooltip: {
+        titleFont: {
+          size: 14
+        },
+        bodyFont: {
+          size: 35
+        },
+        footerFont: {
+          size: 20, // there is no footer by default
+        },
+        backgroundColor: '#FFF9F7',
+        displayColors: false,
+        titleColor: '#143E35',
+        bodyColor: '#143E35',
+        footerColor: '#143E35',
+        padding:{
+        left:20,top:20,right:20,bottom:20,
+        }
+      },
+      legend: {
+        display: false,
+        title: {
+          // This more specific font property overrides the global property
+          font: {
+            size: 22,
+            color: '#143E35'
+          }
+        }
+      }
+    },
+
+    elements: {
+      line: {
+        borderWidth: 0
+      },
+      point: {
+        pointRadius: 12
+      }
+    },
+
+    //design scales
+     scales: {
+      r: {
+        angleLines: {
+          lineWidth: 3,
+          color: 'rgba(20, 62, 53, .5)',
+        },
+        grid: {
+          circular: false,
+          lineWidth: 3,
+          color: 'rgba(20, 62, 53, .5)',
+        },
+        ticks: {
+          color: ' #143E35',
+          font: {
+            size: 18,
+            weight: 'bold',
+            display: true,
+          }
+        },
+        pointLabels: {
+          color: '#143E35',
+          font: {
+            size: 16
+          }
+        }
+      }
+    }
+  }
+};
+
+// init render block
+const myChart20 = new Chart(
+  document.getElementById('myChart20'),
+  config20
+);
+
+
+
+///// Chart sheet 6 RADAR VERSION ///////////////////////////////////////////////
+
+// data block
+const data21 = {
+ labels: [
+    ['develop into a cohesive team'],
+    ['Be relevant to all stakeholders','throughout the origanisations','and perfom to its optimum level'],
+    ['Create a positive environment', 'to deliver high-levels of', 'balance short-term plannig with', 'long-term strategy during', 'times of high pressure']
+    ],
+  datasets: [{
+    //label: '# of Votes',
+    data: [12, 19, 32 ],
+    backgroundColor: 'rgba(20, 62, 53, .7)',
+    //radar point styling
+    borderColor: 'rgb(2s0, 203, 203, 1)',
+    pointBackgroundColor: 'rgba(20, 62, 53, 1)',
+    pointBorderColor: 'rgba(20, 62, 53, .5)',
+    pointHoverBackgroundColor: 'rgba(20, 62, 53, 1)',
+    pointHoverBorderColor: 'rgb(20, 99, 132)',
+  }]
+};
+
+// config block
+const config21 = {
+  type: 'radar',
+  data: data21,
+  options: {
+    plugins: {
+    // all styling for tooltip
+    	tooltip: {
+        titleFont: {
+          size: 14
+        },
+        bodyFont: {
+          size: 35
+        },
+        footerFont: {
+          size: 20, // there is no footer by default
+        },
+        backgroundColor: '#FFF9F7',
+        displayColors: false,
+        titleColor: '#143E35',
+        bodyColor: '#143E35',
+        footerColor: '#143E35',
+        padding:{
+        left:20,top:20,right:20,bottom:20,
+        }
+      },
+      legend: {
+        display: false,
+        title: {
+          // This more specific font property overrides the global property
+          font: {
+            size: 22,
+            color: '#143E35'
+          }
+        }
+      }
+    },
+
+    elements: {
+      line: {
+        borderWidth: 0
+      },
+      point: {
+        pointRadius: 12
+      }
+    },
+
+    //design scales
+     scales: {
+      r: {
+        angleLines: {
+          lineWidth: 3,
+          color: 'rgba(20, 62, 53, .5)',
+        },
+        grid: {
+          circular: false,
+          lineWidth: 3,
+          color: 'rgba(20, 62, 53, .5)',
+        },
+        ticks: {
+          color: ' #143E35',
+          font: {
+            size: 18,
+            weight: 'bold',
+            display: true,
+          }
+        },
+        pointLabels: {
+          color: '#143E35',
+          font: {
+            size: 16
+          }
+        }
+      }
+    }
+  }
+};
+
+// init render block
+const myChart21 = new Chart(
+  document.getElementById('myChart21'),
+  config21
+);
+
+
+
+
+
+///// Chart sheet 6 RADAR VERSION ///////////////////////////////////////////////
+
+// data block
+const data22 = {
+ labels: [
+    ['develop into a cohesive team'],
+    ['Be relevant to all stakeholders','throughout the origanisations','and perfom to its optimum level'],
+    ['Create a positive environment', 'to deliver high-levels of', 'balance short-term plannig with', 'long-term strategy during', 'times of high pressure']
+    ],
+  datasets: [{
+    //label: '# of Votes',
+    data: [12, 19, 32 ],
+    backgroundColor: 'rgba(20, 62, 53, .7)',
+    //radar point styling
+    borderColor: 'rgb(2s0, 203, 203, 1)',
+    pointBackgroundColor: 'rgba(20, 62, 53, 1)',
+    pointBorderColor: 'rgba(20, 62, 53, .5)',
+    pointHoverBackgroundColor: 'rgba(20, 62, 53, 1)',
+    pointHoverBorderColor: 'rgb(20, 99, 132)',
+  }]
+};
+
+// config block
+const config22 = {
+  type: 'radar',
+  data: data22,
+  options: {
+    plugins: {
+    // all styling for tooltip
+    	tooltip: {
+        titleFont: {
+          size: 14
+        },
+        bodyFont: {
+          size: 35
+        },
+        footerFont: {
+          size: 20, // there is no footer by default
+        },
+        backgroundColor: '#FFF9F7',
+        displayColors: false,
+        titleColor: '#143E35',
+        bodyColor: '#143E35',
+        footerColor: '#143E35',
+        padding:{
+        left:20,top:20,right:20,bottom:20,
+        }
+      },
+      legend: {
+        display: false,
+        title: {
+          // This more specific font property overrides the global property
+          font: {
+            size: 22,
+            color: '#143E35'
+          }
+        }
+      }
+    },
+
+    elements: {
+      line: {
+        borderWidth: 0
+      },
+      point: {
+        pointRadius: 12
+      }
+    },
+
+    //design scales
+     scales: {
+      r: {
+        angleLines: {
+          lineWidth: 3,
+          color: 'rgba(20, 62, 53, .5)',
+        },
+        grid: {
+          circular: false,
+          lineWidth: 3,
+          color: 'rgba(20, 62, 53, .5)',
+        },
+        ticks: {
+          color: ' #143E35',
+          font: {
+            size: 18,
+            weight: 'bold',
+            display: true,
+          }
+        },
+        pointLabels: {
+          color: '#143E35',
+          font: {
+            size: 16
+          }
+        }
+      }
+    }
+  }
+};
+
+// init render block
+const myChart22 = new Chart(
+  document.getElementById('myChart22'),
+  config22
+);
+
+
+
+///// Chart sheet 6 RADAR VERSION ///////////////////////////////////////////////
+
+// data block
+const data23 = {
+ labels: [
+    ['develop into a cohesive team'],
+    ['Be relevant to all stakeholders','throughout the origanisations','and perfom to its optimum level'],
+    ['Create a positive environment', 'to deliver high-levels of', 'balance short-term plannig with', 'long-term strategy during', 'times of high pressure']
+    ],
+  datasets: [{
+    //label: '# of Votes',
+    data: [12, 19, 32 ],
+    backgroundColor: 'rgba(20, 62, 53, .7)',
+    //radar point styling
+    borderColor: 'rgb(2s0, 203, 203, 1)',
+    pointBackgroundColor: 'rgba(20, 62, 53, 1)',
+    pointBorderColor: 'rgba(20, 62, 53, .5)',
+    pointHoverBackgroundColor: 'rgba(20, 62, 53, 1)',
+    pointHoverBorderColor: 'rgb(20, 99, 132)',
+  }]
+};
+
+// config block
+const config23 = {
+  type: 'radar',
+  data: data23,
+  options: {
+    plugins: {
+    // all styling for tooltip
+    	tooltip: {
+        titleFont: {
+          size: 14
+        },
+        bodyFont: {
+          size: 35
+        },
+        footerFont: {
+          size: 20, // there is no footer by default
+        },
+        backgroundColor: '#FFF9F7',
+        displayColors: false,
+        titleColor: '#143E35',
+        bodyColor: '#143E35',
+        footerColor: '#143E35',
+        padding:{
+        left:20,top:20,right:20,bottom:20,
+        }
+      },
+      legend: {
+        display: false,
+        title: {
+          // This more specific font property overrides the global property
+          font: {
+            size: 22,
+            color: '#143E35'
+          }
+        }
+      }
+    },
+
+    elements: {
+      line: {
+        borderWidth: 0
+      },
+      point: {
+        pointRadius: 12
+      }
+    },
+
+    //design scales
+     scales: {
+      r: {
+        angleLines: {
+          lineWidth: 3,
+          color: 'rgba(20, 62, 53, .5)',
+        },
+        grid: {
+          circular: false,
+          lineWidth: 3,
+          color: 'rgba(20, 62, 53, .5)',
+        },
+        ticks: {
+          color: ' #143E35',
+          font: {
+            size: 18,
+            weight: 'bold',
+            display: true,
+          }
+        },
+        pointLabels: {
+          color: '#143E35',
+          font: {
+            size: 16
+          }
+        }
+      }
+    }
+  }
+};
+
+// init render block
+const myChart23 = new Chart(
+  document.getElementById('myChart23'),
+  config23
+);
+
+
+
+///// Chart sheet 6 RADAR VERSION ///////////////////////////////////////////////
+
+// data block
+const data24 = {
+ labels: [
+    ['develop into a cohesive team'],
+    ['Be relevant to all stakeholders','throughout the origanisations','and perfom to its optimum level'],
+    ['Create a positive environment', 'to deliver high-levels of', 'balance short-term plannig with', 'long-term strategy during', 'times of high pressure']
+    ],
+  datasets: [{
+    //label: '# of Votes',
+    data: [12, 19, 32 ],
+    backgroundColor: 'rgba(20, 62, 53, .7)',
+    //radar point styling
+    borderColor: 'rgb(2s0, 203, 203, 1)',
+    pointBackgroundColor: 'rgba(20, 62, 53, 1)',
+    pointBorderColor: 'rgba(20, 62, 53, .5)',
+    pointHoverBackgroundColor: 'rgba(20, 62, 53, 1)',
+    pointHoverBorderColor: 'rgb(20, 99, 132)',
+  }]
+};
+
+// config block
+const config24 = {
+  type: 'radar',
+  data: data24,
+  options: {
+    plugins: {
+    // all styling for tooltip
+    	tooltip: {
+        titleFont: {
+          size: 14
+        },
+        bodyFont: {
+          size: 35
+        },
+        footerFont: {
+          size: 20, // there is no footer by default
+        },
+        backgroundColor: '#FFF9F7',
+        displayColors: false,
+        titleColor: '#143E35',
+        bodyColor: '#143E35',
+        footerColor: '#143E35',
+        padding:{
+        left:20,top:20,right:20,bottom:20,
+        }
+      },
+      legend: {
+        display: false,
+        title: {
+          // This more specific font property overrides the global property
+          font: {
+            size: 22,
+            color: '#143E35'
+          }
+        }
+      }
+    },
+
+    elements: {
+      line: {
+        borderWidth: 0
+      },
+      point: {
+        pointRadius: 12
+      }
+    },
+
+    //design scales
+     scales: {
+      r: {
+        angleLines: {
+          lineWidth: 3,
+          color: 'rgba(20, 62, 53, .5)',
+        },
+        grid: {
+          circular: false,
+          lineWidth: 3,
+          color: 'rgba(20, 62, 53, .5)',
+        },
+        ticks: {
+          color: ' #143E35',
+          font: {
+            size: 18,
+            weight: 'bold',
+            display: true,
+          }
+        },
+        pointLabels: {
+          color: '#143E35',
+          font: {
+            size: 16
+          }
+        }
+      }
+    }
+  }
+};
+
+// init render block
+const myChart24 = new Chart(
+  document.getElementById('myChart24'),
+  config24
+);
+
+
+
+
+///// Chart sheet 6 RADAR VERSION ///////////////////////////////////////////////
+
+// data block
+const data25 = {
+ labels: [
+    ['develop into a cohesive team'],
+    ['Be relevant to all stakeholders','throughout the origanisations','and perfom to its optimum level'],
+    ['Create a positive environment', 'to deliver high-levels of', 'balance short-term plannig with', 'long-term strategy during', 'times of high pressure']
+    ],
+  datasets: [{
+    //label: '# of Votes',
+    data: [12, 19, 32 ],
+    backgroundColor: 'rgba(20, 62, 53, .7)',
+    //radar point styling
+    borderColor: 'rgb(2s0, 203, 203, 1)',
+    pointBackgroundColor: 'rgba(20, 62, 53, 1)',
+    pointBorderColor: 'rgba(20, 62, 53, .5)',
+    pointHoverBackgroundColor: 'rgba(20, 62, 53, 1)',
+    pointHoverBorderColor: 'rgb(20, 99, 132)',
+  }]
+};
+
+// config block
+const config25 = {
+  type: 'radar',
+  data: data25,
+  options: {
+    plugins: {
+    // all styling for tooltip
+    	tooltip: {
+        titleFont: {
+          size: 14
+        },
+        bodyFont: {
+          size: 35
+        },
+        footerFont: {
+          size: 20, // there is no footer by default
+        },
+        backgroundColor: '#FFF9F7',
+        displayColors: false,
+        titleColor: '#143E35',
+        bodyColor: '#143E35',
+        footerColor: '#143E35',
+        padding:{
+        left:20,top:20,right:20,bottom:20,
+        }
+      },
+      legend: {
+        display: false,
+        title: {
+          // This more specific font property overrides the global property
+          font: {
+            size: 22,
+            color: '#143E35'
+          }
+        }
+      }
+    },
+
+    elements: {
+      line: {
+        borderWidth: 0
+      },
+      point: {
+        pointRadius: 12
+      }
+    },
+
+    //design scales
+     scales: {
+      r: {
+        angleLines: {
+          lineWidth: 3,
+          color: 'rgba(20, 62, 53, .5)',
+        },
+        grid: {
+          circular: false,
+          lineWidth: 3,
+          color: 'rgba(20, 62, 53, .5)',
+        },
+        ticks: {
+          color: ' #143E35',
+          font: {
+            size: 18,
+            weight: 'bold',
+            display: true,
+          }
+        },
+        pointLabels: {
+          color: '#143E35',
+          font: {
+            size: 16
+          }
+        }
+      }
+    }
+  }
+};
+
+// init render block
+const myChart25 = new Chart(
+  document.getElementById('myChart25'),
+  config25
+);
+
+  ////////////////////////////////////////////
+  
+  
+
+// data block
+const data26 = {
+  labels: [
+  ['Russ-out'],
+  ['Healthy', 'stress'],
+  ['Optimal', 'performance'],
+  ['Hyper', 'interactive'],
+  ['Exhaustion'],
+  ['Burn-out'],
+],
+  datasets: [{
+    //label: '# of Votes',
+    data: [4, 12, 19, 3, 5, 4],
+    backgroundColor: [
+      '#ABBE44',
+      '#4FA543',
+      '#3AB529',
+      '#E2756C',
+      '#E65057',
+      '#C6333A',
+
+    ],
+
+    borderColor: [
+      'white',
+     
+    ],
+    borderWidth: 0,
+    barPercentage: 1.2,
+    categoryPercetage: 1,
+  }]
+};
+
+// config block
+const config26 = {
+  type: 'bar',
+  data: data26,
+  options: {
+    plugins: {
+      // all styling for tooltip
+      tooltip: {
+        titleFont: {
+          size: 14
+        },
+        bodyFont: {
+          size: 35
+        },
+        footerFont: {
+          size: 20, // there is no footer by default
+        },
+        backgroundColor: '#FFF9F7',
+        displayColors: false,
+        titleColor: '#143E35',
+        bodyColor: '#143E35',
+        footerColor: '#143E35',
+        padding: {
+          left: 20,
+          top: 20,
+          right: 20,
+          bottom: 20,
+        }
+      },
+      legend: {
+        display: false,
+        title: {
+          // This more specific font property overrides the global property
+          font: {
+            size: 44,
+            color: '#143E35'
+          }
+        }
+      }
+    },
+
+    //design scales
+    scales: {
+      y: {	
+      	ticks:{
+        display: false,
+        },
+        beginAtZero: true,
+        grid: {
+        	borderColor: '#143E35',
+        	drawOnChartArea: false,
+        	borderWidth: 5,
+          lineWidth: 5,
+          drawBorder: true,
+          display: false,
+        	drawTicks: false,
+          offset: true,
+          
+        }
+			},
+      x: {
+      ticks:{
+        color: '#143E35',
+            font: {
+              size: 18,
+              weight: 'bold',
+              display: true,
+              }
+            },
+      grid: {
+        	borderColor: '#143E35',
+        	drawOnChartArea: false,
+        	borderWidth: 3,
+          lineWidth: 5,
+          drawBorder: true,
+          display: false,
+        	drawTicks: false,
+          
+        }
+      }
+    }
+  }
+};
+
+// init render block
+const myChart26 = new Chart(
+  document.getElementById('myChart26'),
+  config26
+);
+
+  
+
+ 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//font responsive. Keep all charts date above this for it to effect all chart font sizes /////////////////////////////
+
+window.onload = function() {
+
+  //
+  console.log(window.innerWidth)
+  if (window.innerWidth >= 600) {
+    Chart.defaults.font.size = 20;
+    //when screensize falls within the following screen size font will change the the follwoing point size
+  } else if (window.innerWidth >= 600 && window.innerWidth < 999) {
+    Chart.defaults.font.size = 25;
+    //otherwise this will it default to 12 - or whatever result delow
+  } else {
+    Chart.defaults.font.size = 12;
+  }
+  drawChart()
+}
